@@ -1,0 +1,19 @@
+{
+    "name": "material-dashboard",
+    "description": "",
+    "type": "project",
+    "license": "",
+    "authors": [
+        {
+            "name": "Arshad",
+            "email": "nazir.arshad7@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "MyApp\\": "app"
+        }
+    },
+    "require": {
+    }
+}
