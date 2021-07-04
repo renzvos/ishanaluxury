@@ -4,3 +4,6 @@
 [submodule "development/apps/rex-client-php"]
 	path = development/apps/rex-client-php
 	url = https://github.com/Rexplanatory/rex-client-php.git
+[submodule "development/apps/backend"]
+	path = development/apps/backend
+	url = https://github.com/arshad-phpcore/backend.git
