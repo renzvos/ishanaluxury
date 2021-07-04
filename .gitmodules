@@ -1,3 +1,6 @@
 [submodule "development/apps/SQLConnector"]
 	path = development/apps/SQLConnector
 	url = https://github.com/arshad-phpcore/SQLConnector.git
+[submodule "development/apps/rex-client-php"]
+	path = development/apps/rex-client-php
+	url = https://github.com/Rexplanatory/rex-client-php.git
