@@ -7,3 +7,6 @@
 [submodule "development/apps/backend"]
 	path = development/apps/backend
 	url = https://github.com/arshad-phpcore/backend.git
+[submodule "development/apps/rshelves-php"]
+	path = development/apps/rshelves-php
+	url = https://github.com/Rshelves/rshelves-php.git
