@@ -1,0 +1,3 @@
+[submodule "development/apps/SQLConnector"]
+	path = development/apps/SQLConnector
+	url = https://github.com/arshad-phpcore/SQLConnector.git
