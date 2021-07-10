@@ -10,3 +10,15 @@
 [submodule "development/apps/rshelves-php"]
 	path = development/apps/rshelves-php
 	url = https://github.com/Rshelves/rshelves-php.git
+[submodule "development/apps/Ecommerce-Cart-Control"]
+	path = development/apps/Ecommerce-Cart-Control
+	url = https://github.com/arshad-phpcore/Ecommerce-Cart-Control.git
+[submodule "development/apps/Ecommerce-Delivery-Staff"]
+	path = development/apps/Ecommerce-Delivery-Staff
+	url = https://github.com/arshad-phpcore/Ecommerce-Delivery-Staff.git
+[submodule "development/apps/Ecommerce-Order-Control"]
+	path = development/apps/Ecommerce-Order-Control
+	url = https://github.com/arshad-phpcore/Ecommerce-Order-Control.git
+[submodule "development/apps/Location-Controls"]
+	path = development/apps/Location-Controls
+	url = https://github.com/arshad-phpcore/Location-Controls.git
