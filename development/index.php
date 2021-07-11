@@ -7,11 +7,11 @@ require "snippets/Main.php";
 require "snippets/Widgets.php";
 require "snippets/Head.php";
 require "snippets/slider.php";
-require "apps/backend/code/run.php";
-require "Db/JS.php";
-require "Db/ProductsControl.php";
-require "Db/CartControl.php";
-require "Db/Values.php";
+require "Apps/backend/code/run.php";
+require "webapp/JS.php";
+require "Apps/Product-Control/code/run.php";
+require "Apps/Ecommerce-Cart-Control/code/run.php";
+require "CommonHTML.php";
 require "Db/StorageControl.php";
 require "Db/AnalyticsClient.php";
 

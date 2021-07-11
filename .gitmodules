@@ -22,3 +22,6 @@
 [submodule "development/apps/Location-Controls"]
 	path = development/apps/Location-Controls
 	url = https://github.com/arshad-phpcore/Location-Controls.git
+[submodule "development/Apps/Product-Control"]
+	path = development/Apps/Product-Control
+	url = https://github.com/arshad-phpcore/Product-Control.git
