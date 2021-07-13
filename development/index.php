@@ -12,8 +12,8 @@ require "webapp/JS.php";
 require "Apps/Product-Control/code/run.php";
 require "Apps/Ecommerce-Cart-Control/code/run.php";
 require "CommonHTML.php";
-require "Db/StorageControl.php";
-require "Db/AnalyticsClient.php";
+require "Apps/Storage-Control/code/run.php";
+require "Apps/rex-client-php/code/run.php";
 
 $anal = new AnalyticsClient("Index");
 
