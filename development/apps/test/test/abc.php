@@ -1,8 +1,0 @@
-<?php
-
-
-
-erge
-echo "asdasd"
-
-	?>
