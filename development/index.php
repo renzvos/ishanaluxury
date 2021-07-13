@@ -7,11 +7,12 @@ require "snippets/Main.php";
 require "snippets/Widgets.php";
 require "snippets/Head.php";
 require "snippets/slider.php";
-require "Apps/backend/code/run.php";
 require "webapp/JS.php";
+require "CommonHTML.php";
+
+require "Apps/backend/code/run.php";
 require "Apps/Product-Control/code/run.php";
 require "Apps/Ecommerce-Cart-Control/code/run.php";
-require "CommonHTML.php";
 require "Apps/Storage-Control/code/run.php";
 require "Apps/rex-client-php/code/run.php";
 

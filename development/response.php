@@ -7,12 +7,19 @@ require "snippets/Main.php";
 require "snippets/Widgets.php";
 require "snippets/Head.php";
 require "snippets/slider.php";
-require "Db/backed.php";
-require "Db/JS.php";
-require "Db/Payments.php";
-require "Db/DeliveryOrderManagement.php";
-require "Db/ProductsControl.php";
-require "Db/AnalyticsClient.php";
+
+require "webapp/JS.php";
+require "CommonHTML.php";
+
+require "Apps/backend/code/run.php";
+require "Apps/Product-Control/code/run.php";
+require "Apps/Ecommerce-Cart-Control/code/run.php";
+require "Apps/Storage-Control/code/run.php";
+require "Apps/rex-client-php/code/run.php";
+require "Apps/Ecommerce-Order-Control/code/run.php";
+
+
+
 
 $anal = new AnalyticsClient("PaymentFinish");
 
@@ -20,7 +27,6 @@ $anal = new AnalyticsClient("PaymentFinish");
 
 
 $wid = new Widgets();
-$payer = new Payments();
 $HeadC = array();
 array_push($HeadC,array('href="#"','<i class="fa fa-user"></i>',"Home",true));
 if(isset($_SESSION["authenticated"])){array_push($HeadC,array('href="#"','<i class="fa fa-user"></i>',"Orders",false));}

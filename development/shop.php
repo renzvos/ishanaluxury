@@ -10,13 +10,19 @@ require "snippets/Head.php";
 require "snippets/slider.php";
 require "Db/backed.php";
 require "Db/JS.php";
-// require "..\..\Db\Categories.php";
-require "Db/ProductsControl.php";
-require "Db/CartControl.php";
-require "Db/DeliveryOrderManagement.php";
-require "Db/StorageControl.php";
-require "Db/Values.php";
-require "Db/AnalyticsClient.php";
+
+
+require "webapp/JS.php";
+require "CommonHTML.php";
+
+require "Apps/backend/code/run.php";
+require "Apps/Product-Control/code/run.php";
+require "Apps/Ecommerce-Cart-Control/code/run.php";
+require "Apps/Storage-Control/code/run.php";
+require "Apps/rex-client-php/code/run.php";
+require "Apps/Ecommerce-Order-Control/code/run.php";
+
+
 
 $anal = new AnalyticsClient("Shop");
 
